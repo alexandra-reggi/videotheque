@@ -19,7 +19,8 @@ header
     padding: 0;
     height: 15%;
     width: 100%;
-    background-color: #50575E;
+    background-color: #ffca4b;
+    ;
     position: relative;
 }
     
@@ -88,7 +89,8 @@ nav a
     display: block;
     background-color: transparent;
     text-decoration: none;
-    color: #50575E;
+    font-size: 15;
+    color: #ffca4b;
     padding: 5px;
 }
 
@@ -96,7 +98,7 @@ nav li #a-deroulant
 {
     color: white;
     text-align: center;
-    font-size: 25px;
+    font-size: 19px;
     font-family: courier;
 }
 
@@ -112,7 +114,7 @@ nav li #a-deroulant
 nav ul li:hover #ul-sous
 {
     display: block;
-    width: 155px;
+    width: 245px;
 }
 
 #ul-sous li
@@ -139,15 +141,72 @@ main
     height: 70%;
     display: flex;
     flex-direction: row;
+    justify-content: center;
     align-items: center;
+}
+
+/* MAIN GAUCHE */
+#maingauche
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+    height: 15%;
+    width: 33,33%;
+}
+
+/* MAIN MILIEU */
+#mainmilieu
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+    height: 15%;
+    width: 33,33%;
+}
+
+/* MAIN DROITE */
+#maindroite
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+    height: 15%;
+    width: 33,33%;
 }
 
 video
 {
     width: 455px;
     height: 255px;
-    margin: 15px;
-    padding: 15px;
+    margin: 5px;
+    padding: 5px;
+}
+
+.p-main
+{
+    text-align: center;
+    font-family: courier;
+    font-size: 11px;
+    padding: 5px;
+}
+
+a
+{
+    text-decoration: none;
+    color: #ffca4b;
+    font-family: courier;
+    font-size: 11px;
+
 }
 
 /*FOOTER*/
@@ -157,7 +216,7 @@ footer
     display: flex;
     flex-direction: row;
     align-items: center;
-    background-color: #50575E;
+    background-color: #ffca4b;
     position: fixed;
     margin: 0;
     padding: 0;
@@ -206,7 +265,7 @@ footer
     text-decoration:none;
     text-align:center;
     color: white;
-    font-size: 13px;
+    font-size: 15px;
     font-family: courier;
 }
 
